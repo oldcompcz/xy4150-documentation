@@ -2055,17 +2055,6 @@ $EndComp
 Wire Wire Line
 	-1900 1850 -1850 1850
 $Comp
-L Transistor_BJT:BC636 Q?
-U 1 1 5ED134C5
-P -3400 3050
-F 0 "Q?" H -3209 3004 50  0000 L CNN
-F 1 "BC636" H -3209 3095 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H -3200 2975 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC636.pdf" H -3400 3050 50  0001 L CNN
-	1    -3400 3050
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 5EDCE530
 P -2900 2650
@@ -2147,17 +2136,6 @@ Wire Wire Line
 Wire Wire Line
 	-1100 2000 -1250 2000
 $Comp
-L Transistor_BJT:BC107 Q?
-U 1 1 5EFCDDE9
-P -2450 3650
-F 0 "Q?" H -2259 3696 50  0000 L CNN
-F 1 "BC107" H -2259 3605 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H -2250 3575 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H -2450 3650 50  0001 L CNN
-	1    -2450 3650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5EFD1255
 P -3050 3250
@@ -2190,17 +2168,6 @@ Wire Wire Line
 Connection ~ -2800 3250
 Wire Wire Line
 	-2800 3250 -2550 3250
-$Comp
-L Transistor_BJT:BC107 Q?
-U 1 1 5F0A6FA5
-P -1200 3250
-F 0 "Q?" H -1009 3296 50  0000 L CNN
-F 1 "BC107" H -1009 3205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H -1000 3175 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H -1200 3250 50  0001 L CNN
-	1    -1200 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	-1400 3250 -2050 3250
 Connection ~ -2550 3250
@@ -2302,29 +2269,16 @@ F 3 "~" H -700 4150 50  0001 C CNN
 	1    -700 4150
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Transistor_BJT:BC107 Q?
-U 1 1 5F294E6C
-P -800 3450
-F 0 "Q?" H -609 3496 50  0000 L CNN
-F 1 "BC107" H -609 3405 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H -600 3375 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H -800 3450 50  0001 L CNN
-	1    -800 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	-1100 3450 -1000 3450
 Wire Wire Line
 	-1600 3650 -1400 3650
 Wire Wire Line
 	-700 3650 -700 4000
-Connection ~ -700 3650
 Wire Wire Line
 	-700 4300 -700 4400
 Wire Wire Line
 	-1100 3450 -1100 3950
-Connection ~ -1100 3450
 Wire Wire Line
 	-700 4700 -700 4800
 Wire Wire Line
@@ -2402,17 +2356,6 @@ Wire Wire Line
 	-50  4900 -200 4900
 Wire Wire Line
 	-200 1200 -2100 1200
-$Comp
-L Transistor_BJT:BC107 Q?
-U 1 1 5F634A41
-P 550 4900
-F 0 "Q?" H 741 4946 50  0000 L CNN
-F 1 "BC107" H 741 4855 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 750 4825 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 550 4900 50  0001 L CNN
-	1    550  4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	250  4900 350  4900
 $Comp
@@ -2547,17 +2490,6 @@ F 3 "~" H 200 3250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	50   3250 -50  3250
-$Comp
-L Transistor_BJT:BC107 Q?
-U 1 1 5F842C19
-P 600 3250
-F 0 "Q?" H 791 3296 50  0000 L CNN
-F 1 "BC107" H 791 3205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 800 3175 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 600 3250 50  0001 L CNN
-	1    600  3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	350  3250 400  3250
 $Comp
@@ -2857,28 +2789,6 @@ Wire Wire Line
 	4700 4800 4700 4650
 Connection ~ 4700 4650
 $Comp
-L Transistor_BJT:BC107 VT1
-U 1 1 60D6749D
-P 8150 -3100
-F 0 "VT1" H 7950 -3250 50  0000 L CNN
-F 1 "BC107" H 7950 -3350 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 8350 -3175 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 8150 -3100 50  0001 L CNN
-	1    8150 -3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC107 VT?
-U 1 1 60DD73A0
-P 8450 -2900
-F 0 "VT?" H 8600 -2600 50  0000 L CNN
-F 1 "BC107" H 8600 -2700 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 8650 -2975 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 8450 -2900 50  0001 L CNN
-	1    8450 -2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 60F99AAB
 P 8250 -2750
@@ -2889,7 +2799,6 @@ F 3 "~" H 8250 -2750 50  0001 C CNN
 	1    8250 -2750
 	1    0    0    -1  
 $EndComp
-Connection ~ 8250 -2900
 $Comp
 L Device:D D?
 U 1 1 60F99F59
@@ -2943,28 +2852,6 @@ Connection ~ 8550 -3300
 Wire Wire Line
 	8550 -3300 8800 -3300
 $Comp
-L Transistor_BJT:BC107 VT2
-U 1 1 6118B0B7
-P 9450 -3100
-F 0 "VT2" H 9250 -3250 50  0000 L CNN
-F 1 "BC107" H 9250 -3350 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 9650 -3175 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 9450 -3100 50  0001 L CNN
-	1    9450 -3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC107 VT?
-U 1 1 6118B0BD
-P 9750 -2900
-F 0 "VT?" H 9900 -2600 50  0000 L CNN
-F 1 "BC107" H 9900 -2700 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 9950 -2975 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 9750 -2900 50  0001 L CNN
-	1    9750 -2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 6118B0C3
 P 9550 -2750
@@ -2975,7 +2862,6 @@ F 3 "~" H 9550 -2750 50  0001 C CNN
 	1    9550 -2750
 	1    0    0    -1  
 $EndComp
-Connection ~ 9550 -2900
 $Comp
 L Device:D D?
 U 1 1 6118B0CA
@@ -3029,28 +2915,6 @@ Connection ~ 9850 -3300
 Wire Wire Line
 	9850 -3300 10100 -3300
 $Comp
-L Transistor_BJT:BC107 VT3
-U 1 1 611C87CE
-P 10800 -3100
-F 0 "VT3" H 10600 -3250 50  0000 L CNN
-F 1 "BC107" H 10600 -3350 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 11000 -3175 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 10800 -3100 50  0001 L CNN
-	1    10800 -3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC107 VT?
-U 1 1 611C87D4
-P 11100 -2900
-F 0 "VT?" H 11250 -2600 50  0000 L CNN
-F 1 "BC107" H 11250 -2700 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 11300 -2975 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 11100 -2900 50  0001 L CNN
-	1    11100 -2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 611C87DA
 P 10900 -2750
@@ -3061,7 +2925,6 @@ F 3 "~" H 10900 -2750 50  0001 C CNN
 	1    10900 -2750
 	1    0    0    -1  
 $EndComp
-Connection ~ 10900 -2900
 $Comp
 L Device:D D?
 U 1 1 611C87E1
@@ -3115,28 +2978,6 @@ Connection ~ 11200 -3300
 Wire Wire Line
 	11200 -3300 11450 -3300
 $Comp
-L Transistor_BJT:BC107 VT4
-U 1 1 61207A21
-P 12150 -3100
-F 0 "VT4" H 11950 -3250 50  0000 L CNN
-F 1 "BC107" H 11950 -3350 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 12350 -3175 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 12150 -3100 50  0001 L CNN
-	1    12150 -3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC107 VT?
-U 1 1 61207A27
-P 12450 -2900
-F 0 "VT?" H 12600 -2600 50  0000 L CNN
-F 1 "BC107" H 12600 -2700 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 12650 -2975 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 12450 -2900 50  0001 L CNN
-	1    12450 -2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 61207A2D
 P 12250 -2750
@@ -3147,7 +2988,6 @@ F 3 "~" H 12250 -2750 50  0001 C CNN
 	1    12250 -2750
 	1    0    0    -1  
 $EndComp
-Connection ~ 12250 -2900
 $Comp
 L Device:D D?
 U 1 1 61207A34
@@ -3201,28 +3041,6 @@ Connection ~ 12550 -3300
 Wire Wire Line
 	12550 -3300 12800 -3300
 $Comp
-L Transistor_BJT:BC107 VT7
-U 1 1 6157D78C
-P 8150 -900
-F 0 "VT7" H 7950 -1050 50  0000 L CNN
-F 1 "BC107" H 7950 -1150 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 8350 -975 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 8150 -900 50  0001 L CNN
-	1    8150 -900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC107 VT?
-U 1 1 6157D792
-P 8450 -700
-F 0 "VT?" H 8600 -400 50  0000 L CNN
-F 1 "BC107" H 8600 -500 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 8650 -775 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 8450 -700 50  0001 L CNN
-	1    8450 -700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 6157D798
 P 8250 -550
@@ -3233,7 +3051,6 @@ F 3 "~" H 8250 -550 50  0001 C CNN
 	1    8250 -550
 	1    0    0    -1  
 $EndComp
-Connection ~ 8250 -700
 $Comp
 L Device:D D?
 U 1 1 6157D79F
@@ -3287,28 +3104,6 @@ Connection ~ 8550 -1100
 Wire Wire Line
 	8550 -1100 8800 -1100
 $Comp
-L Transistor_BJT:BC107 VT8
-U 1 1 6157D7BC
-P 9450 -900
-F 0 "VT8" H 9250 -1050 50  0000 L CNN
-F 1 "BC107" H 9250 -1150 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 9650 -975 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 9450 -900 50  0001 L CNN
-	1    9450 -900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC107 VT?
-U 1 1 6157D7C2
-P 9750 -700
-F 0 "VT?" H 9900 -400 50  0000 L CNN
-F 1 "BC107" H 9900 -500 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 9950 -775 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 9750 -700 50  0001 L CNN
-	1    9750 -700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 6157D7C8
 P 9550 -550
@@ -3319,7 +3114,6 @@ F 3 "~" H 9550 -550 50  0001 C CNN
 	1    9550 -550
 	1    0    0    -1  
 $EndComp
-Connection ~ 9550 -700
 $Comp
 L Device:D D?
 U 1 1 6157D7CF
@@ -3373,28 +3167,6 @@ Connection ~ 9850 -1100
 Wire Wire Line
 	9850 -1100 10100 -1100
 $Comp
-L Transistor_BJT:BC107 VT9
-U 1 1 6157D7EC
-P 10800 -900
-F 0 "VT9" H 10600 -1050 50  0000 L CNN
-F 1 "BC107" H 10600 -1150 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 11000 -975 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 10800 -900 50  0001 L CNN
-	1    10800 -900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC107 VT?
-U 1 1 6157D7F2
-P 11100 -700
-F 0 "VT?" H 11250 -400 50  0000 L CNN
-F 1 "BC107" H 11250 -500 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 11300 -775 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 11100 -700 50  0001 L CNN
-	1    11100 -700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 6157D7F8
 P 10900 -550
@@ -3405,7 +3177,6 @@ F 3 "~" H 10900 -550 50  0001 C CNN
 	1    10900 -550
 	1    0    0    -1  
 $EndComp
-Connection ~ 10900 -700
 $Comp
 L Device:D D?
 U 1 1 6157D7FF
@@ -3459,28 +3230,6 @@ Connection ~ 11200 -1100
 Wire Wire Line
 	11200 -1100 11450 -1100
 $Comp
-L Transistor_BJT:BC107 VT10
-U 1 1 6157D81C
-P 12150 -900
-F 0 "VT10" H 11950 -1050 50  0000 L CNN
-F 1 "BC107" H 11950 -1150 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 12350 -975 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 12150 -900 50  0001 L CNN
-	1    12150 -900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC107 VT?
-U 1 1 6157D822
-P 12450 -700
-F 0 "VT?" H 12600 -400 50  0000 L CNN
-F 1 "BC107" H 12600 -500 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 12650 -775 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 12450 -700 50  0001 L CNN
-	1    12450 -700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 6157D828
 P 12250 -550
@@ -3491,7 +3240,6 @@ F 3 "~" H 12250 -550 50  0001 C CNN
 	1    12250 -550
 	1    0    0    -1  
 $EndComp
-Connection ~ 12250 -700
 $Comp
 L Device:D D?
 U 1 1 6157D82F
@@ -3545,17 +3293,6 @@ Connection ~ 12550 -1100
 Wire Wire Line
 	12550 -1100 12800 -1100
 $Comp
-L Transistor_BJT:BC107 VT5
-U 1 1 615C3E7A
-P 13550 -2950
-F 0 "VT5" H 13350 -3100 50  0000 L CNN
-F 1 "BC107" H 13350 -3200 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 13750 -3025 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 13550 -2950 50  0001 L CNN
-	1    13550 -2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R49
 U 1 1 615C3E80
 P 13350 -3250
@@ -3578,17 +3315,6 @@ F 2 "" V 13780 -3150 50  0001 C CNN
 F 3 "~" H 13850 -3150 50  0001 C CNN
 	1    13850 -3150
 	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_BJT:BC636 Q?
-U 1 1 6168D2DC
-P 14300 -3150
-F 0 "Q?" H 14000 -2950 50  0000 L CNN
-F 1 "BC636" H 14000 -3050 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 14500 -3225 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC636.pdf" H 14300 -3150 50  0001 L CNN
-	1    14300 -3150
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
@@ -3678,17 +3404,6 @@ Wire Wire Line
 Wire Wire Line
 	13650 -3150 13700 -3150
 $Comp
-L Transistor_BJT:BC107 VT6
-U 1 1 619184B0
-P 15750 -2950
-F 0 "VT6" H 15550 -3100 50  0000 L CNN
-F 1 "BC107" H 15550 -3200 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 15950 -3025 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 15750 -2950 50  0001 L CNN
-	1    15750 -2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R50
 U 1 1 619184B6
 P 15550 -3250
@@ -3711,17 +3426,6 @@ F 2 "" V 15980 -3150 50  0001 C CNN
 F 3 "~" H 16050 -3150 50  0001 C CNN
 	1    16050 -3150
 	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_BJT:BC636 Q?
-U 1 1 619184C3
-P 16500 -3150
-F 0 "Q?" H 16200 -2950 50  0000 L CNN
-F 1 "BC636" H 16200 -3050 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 16700 -3225 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC636.pdf" H 16500 -3150 50  0001 L CNN
-	1    16500 -3150
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
@@ -3811,17 +3515,6 @@ Wire Wire Line
 Wire Wire Line
 	15850 -3150 15900 -3150
 $Comp
-L Transistor_BJT:BC107 VT11
-U 1 1 6197A590
-P 13500 -750
-F 0 "VT11" H 13300 -900 50  0000 L CNN
-F 1 "BC107" H 13300 -1000 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 13700 -825 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 13500 -750 50  0001 L CNN
-	1    13500 -750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 6197A596
 P 13300 -1050
@@ -3844,17 +3537,6 @@ F 2 "" V 13730 -950 50  0001 C CNN
 F 3 "~" H 13800 -950 50  0001 C CNN
 	1    13800 -950
 	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_BJT:BC636 Q?
-U 1 1 6197A5A3
-P 14250 -950
-F 0 "Q?" H 13950 -750 50  0000 L CNN
-F 1 "BC636" H 13950 -850 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 14450 -1025 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC636.pdf" H 14250 -950 50  0001 L CNN
-	1    14250 -950
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
@@ -3968,17 +3650,6 @@ F 3 "~" H 16000 -950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor_BJT:BC636 Q?
-U 1 1 6197A5EC
-P 16450 -950
-F 0 "Q?" H 16150 -750 50  0000 L CNN
-F 1 "BC636" H 16150 -850 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 16650 -1025 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC636.pdf" H 16450 -950 50  0001 L CNN
-	1    16450 -950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 6197A5F2
 P 16500 -600
@@ -4065,8 +3736,6 @@ Wire Wire Line
 	17200 -800 17200 -600
 Wire Wire Line
 	15800 -950 15850 -950
-Wire Wire Line
-	17800 -2250 9000 -2250
 Wire Wire Line
 	9000 -2250 9000 -3300
 Wire Wire Line
@@ -4969,17 +4638,6 @@ F 3 "" H 13600 -550 50  0001 C CNN
 	1    13600 -550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:BC107 VT?
-U 1 1 6197A5D9
-P 15700 -750
-F 0 "VT?" H 15500 -900 50  0000 L CNN
-F 1 "BC107" H 15500 -1000 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 15900 -825 50  0001 L CIN
-F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 15700 -750 50  0001 L CNN
-	1    15700 -750
-	1    0    0    -1  
-$EndComp
 Text Label 7000 -3550 0    50   ~ 0
 m1-1
 Text Label 7000 -3000 0    50   ~ 0
@@ -5377,14 +5035,6 @@ $EndComp
 Connection ~ 8200 3300
 Wire Wire Line
 	8200 3300 8300 3300
-Wire Bus Line
-	7100 -3700 15450 -3700
-Wire Bus Line
-	7100 -3700 7100 -1050
-Wire Bus Line
-	7400 -1500 7400 3250
-Wire Bus Line
-	7400 -1500 15400 -1500
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 682682F1
@@ -5421,4 +5071,354 @@ F 3 "~" H 11350 1200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 11350 1200
+Wire Wire Line
+	9000 -2250 17800 -2250
+$Comp
+L xy4150-restore:KC639 VT5
+U 1 1 683F44E3
+P 13600 -2950
+F 0 "VT5" H 13741 -2904 50  0000 L CNN
+F 1 "KC639" H 13741 -2995 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 14250 -3150 50  0001 C CNN
+F 3 "" H 13600 -2950 50  0001 C CNN
+	1    13600 -2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT1
+U 1 1 683F4E66
+P 8200 -3100
+F 0 "VT1" H 8341 -3054 50  0000 L CNN
+F 1 "KC639" H 8341 -3145 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 8850 -3300 50  0001 C CNN
+F 3 "" H 8200 -3100 50  0001 C CNN
+	1    8200 -3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT15
+U 1 1 683F5B2C
+P 8500 -2900
+F 0 "VT15" H 8641 -2854 50  0000 L CNN
+F 1 "KC639" H 8641 -2945 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 9150 -3100 50  0001 C CNN
+F 3 "" H 8500 -2900 50  0001 C CNN
+	1    8500 -2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 -2900
+$Comp
+L xy4150-restore:KC639 VT16
+U 1 1 683F6271
+P 9800 -2900
+F 0 "VT16" H 9941 -2854 50  0000 L CNN
+F 1 "KC639" H 9941 -2945 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 10450 -3100 50  0001 C CNN
+F 3 "" H 9800 -2900 50  0001 C CNN
+	1    9800 -2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT2
+U 1 1 683F6B48
+P 9500 -3100
+F 0 "VT2" H 9641 -3054 50  0000 L CNN
+F 1 "KC639" H 9641 -3145 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 10150 -3300 50  0001 C CNN
+F 3 "" H 9500 -3100 50  0001 C CNN
+	1    9500 -3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 9550 -2900
+$Comp
+L xy4150-restore:KC639 VT
+U 1 1 683F736A
+P 10850 -3100
+F 0 "VT" H 10991 -3054 50  0000 L CNN
+F 1 "KC639" H 10991 -3145 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 11500 -3300 50  0001 C CNN
+F 3 "" H 10850 -3100 50  0001 C CNN
+	1    10850 -3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT17
+U 1 1 683F7962
+P 11150 -2900
+F 0 "VT17" H 11291 -2854 50  0000 L CNN
+F 1 "KC639" H 11291 -2945 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 11800 -3100 50  0001 C CNN
+F 3 "" H 11150 -2900 50  0001 C CNN
+	1    11150 -2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 10900 -2900
+$Comp
+L xy4150-restore:KC639 VT4
+U 1 1 683FA8CB
+P 12200 -3100
+F 0 "VT4" H 12341 -3054 50  0000 L CNN
+F 1 "KC639" H 12341 -3145 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 12850 -3300 50  0001 C CNN
+F 3 "" H 12200 -3100 50  0001 C CNN
+	1    12200 -3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT18
+U 1 1 683FB2F6
+P 12500 -2900
+F 0 "VT18" H 12641 -2854 50  0000 L CNN
+F 1 "KC639" H 12641 -2945 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 13150 -3100 50  0001 C CNN
+F 3 "" H 12500 -2900 50  0001 C CNN
+	1    12500 -2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 12250 -2900
+$Comp
+L xy4150-restore:KC639 VT7
+U 1 1 683FB8F5
+P 8200 -900
+F 0 "VT7" H 8341 -854 50  0000 L CNN
+F 1 "KC639" H 8341 -945 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 8850 -1100 50  0001 C CNN
+F 3 "" H 8200 -900 50  0001 C CNN
+	1    8200 -900
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT19
+U 1 1 683FC38B
+P 8500 -700
+F 0 "VT19" H 8641 -654 50  0000 L CNN
+F 1 "KC639" H 8641 -745 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 9150 -900 50  0001 C CNN
+F 3 "" H 8500 -700 50  0001 C CNN
+	1    8500 -700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 -700
+$Comp
+L xy4150-restore:KC639 VT8
+U 1 1 683FC7E9
+P 9500 -900
+F 0 "VT8" H 9641 -854 50  0000 L CNN
+F 1 "KC639" H 9641 -945 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 10150 -1100 50  0001 C CNN
+F 3 "" H 9500 -900 50  0001 C CNN
+	1    9500 -900
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT20
+U 1 1 683FCDD5
+P 9800 -700
+F 0 "VT20" H 9941 -654 50  0000 L CNN
+F 1 "KC639" H 9941 -745 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 10450 -900 50  0001 C CNN
+F 3 "" H 9800 -700 50  0001 C CNN
+	1    9800 -700
+	1    0    0    -1  
+$EndComp
+Connection ~ 9550 -700
+$Comp
+L xy4150-restore:KC639 VT9
+U 1 1 683FD0F8
+P 10850 -900
+F 0 "VT9" H 10991 -854 50  0000 L CNN
+F 1 "KC639" H 10991 -945 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 11500 -1100 50  0001 C CNN
+F 3 "" H 10850 -900 50  0001 C CNN
+	1    10850 -900
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT21
+U 1 1 683FDB3C
+P 11150 -700
+F 0 "VT21" H 11291 -654 50  0000 L CNN
+F 1 "KC639" H 11291 -745 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 11800 -900 50  0001 C CNN
+F 3 "" H 11150 -700 50  0001 C CNN
+	1    11150 -700
+	1    0    0    -1  
+$EndComp
+Connection ~ 10900 -700
+$Comp
+L xy4150-restore:KC639 VT10
+U 1 1 683FE1BF
+P 12200 -900
+F 0 "VT10" H 12341 -854 50  0000 L CNN
+F 1 "KC639" H 12341 -945 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 12850 -1100 50  0001 C CNN
+F 3 "" H 12200 -900 50  0001 C CNN
+	1    12200 -900
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT22
+U 1 1 683FE614
+P 12500 -700
+F 0 "VT22" H 12641 -654 50  0000 L CNN
+F 1 "KC639" H 12641 -745 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 13150 -900 50  0001 C CNN
+F 3 "" H 12500 -700 50  0001 C CNN
+	1    12500 -700
+	1    0    0    -1  
+$EndComp
+Connection ~ 12250 -700
+$Comp
+L xy4150-restore:KC639 VT11
+U 1 1 683FE956
+P 13550 -750
+F 0 "VT11" H 13691 -704 50  0000 L CNN
+F 1 "KC639" H 13691 -795 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 14200 -950 50  0001 C CNN
+F 3 "" H 13550 -750 50  0001 C CNN
+	1    13550 -750
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT12
+U 1 1 683FEEDF
+P 15750 -750
+F 0 "VT12" H 15891 -704 50  0000 L CNN
+F 1 "KC639" H 15891 -795 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 16400 -950 50  0001 C CNN
+F 3 "" H 15750 -750 50  0001 C CNN
+	1    15750 -750
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT?
+U 1 1 683FF689
+P -3350 3050
+F 0 "VT?" H -3209 3096 50  0000 L CNN
+F 1 "KC639" H -3209 3005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H -2700 2850 50  0001 C CNN
+F 3 "" H -3350 3050 50  0001 C CNN
+	1    -3350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT?
+U 1 1 6840084B
+P -2500 3650
+F 0 "VT?" H -2359 3696 50  0000 L CNN
+F 1 "KC639" H -2359 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H -1850 3450 50  0001 C CNN
+F 3 "" H -2500 3650 50  0001 C CNN
+	1    -2500 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT?
+U 1 1 68401496
+P -1150 3250
+F 0 "VT?" H -1009 3296 50  0000 L CNN
+F 1 "KC639" H -1009 3205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H -500 3050 50  0001 C CNN
+F 3 "" H -1150 3250 50  0001 C CNN
+	1    -1150 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ -1100 3450
+$Comp
+L xy4150-restore:KC639 VT?
+U 1 1 68401CBE
+P -750 3450
+F 0 "VT?" H -609 3496 50  0000 L CNN
+F 1 "KC639" H -609 3405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H -100 3250 50  0001 C CNN
+F 3 "" H -750 3450 50  0001 C CNN
+	1    -750 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ -700 3650
+$Comp
+L xy4150-restore:KC639 VT?
+U 1 1 684023A7
+P 600 4900
+F 0 "VT?" H 741 4946 50  0000 L CNN
+F 1 "KC639" H 741 4855 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 1250 4700 50  0001 C CNN
+F 3 "" H 600 4900 50  0001 C CNN
+	1    600  4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT?
+U 1 1 68402B0A
+P 650 3250
+F 0 "VT?" H 791 3296 50  0000 L CNN
+F 1 "KC639" H 791 3205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 1300 3050 50  0001 C CNN
+F 3 "" H 650 3250 50  0001 C CNN
+	1    650  3250
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	7100 -3700 15450 -3700
+Wire Bus Line
+	7100 -3700 7100 -1050
+Wire Bus Line
+	7400 -1500 7400 3250
+Wire Bus Line
+	7400 -1500 15400 -1500
+$Comp
+L xy4150-restore:KD140 VT27
+U 1 1 68501D8D
+P 16600 -3150
+F 0 "VT27" H 16691 -3104 50  0000 L CNN
+F 1 "KD140" H 16691 -3195 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 17500 -3350 50  0001 C CNN
+F 3 "" H 16600 -3150 50  0001 C CNN
+	1    16600 -3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KD140 VT26
+U 1 1 68505950
+P 14400 -3150
+F 0 "VT26" H 14491 -3104 50  0000 L CNN
+F 1 "KD140" H 14491 -3195 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 15300 -3350 50  0001 C CNN
+F 3 "" H 14400 -3150 50  0001 C CNN
+	1    14400 -3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KD140 VT29
+U 1 1 685064A9
+P 16550 -950
+F 0 "VT29" H 16641 -904 50  0000 L CNN
+F 1 "KD140" H 16641 -995 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 17450 -1150 50  0001 C CNN
+F 3 "" H 16550 -950 50  0001 C CNN
+	1    16550 -950
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KD140 VT28
+U 1 1 68506BEE
+P 14350 -950
+F 0 "VT28" H 14441 -904 50  0000 L CNN
+F 1 "KD140" H 14441 -995 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 15250 -1150 50  0001 C CNN
+F 3 "" H 14350 -950 50  0001 C CNN
+	1    14350 -950
+	1    0    0    -1  
+$EndComp
+$Comp
+L xy4150-restore:KC639 VT6
+U 1 1 68370E13
+P 15800 -2950
+F 0 "VT6" H 15941 -2904 50  0000 L CNN
+F 1 "KC639" H 15941 -2995 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 16450 -3150 50  0001 C CNN
+F 3 "" H 15800 -2950 50  0001 C CNN
+	1    15800 -2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

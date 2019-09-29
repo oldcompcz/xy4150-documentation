@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name xy4150-restore)(type Legacy)(uri ${KIPRJMOD}/xy4150-restore.lib)(options "")(descr ""))
+)
